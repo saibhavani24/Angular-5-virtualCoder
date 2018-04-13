@@ -1,0 +1,39 @@
+<div id="project">
+<h1 [@fadeAnimation] class="h1-responsive"style="margin-top: 3em; color:grey; line-height:3em">
+ Work That Represents Us
+</h1>
+<br>
+ 
+    <mat-tab-group>
+      <mat-tab label="All">
+        <mat-grid-list cols="3" rowHeight="2:1">
+          <mat-grid-tile *ngFor="let pic of all" class="container" >
+            <img mat-card-image class="image mx-auto " src="{{pic.image}}" >
+            <span class="middle text">{{pic.text}}</span>
+          </mat-grid-tile>
+        </mat-grid-list>
+      </mat-tab>
+      
+      <mat-tab label="Android">
+        <mat-grid-list   cols="3" rowHeight="2:1">
+          <mat-grid-tile *ngFor="let pic of android" class="container">
+            <img mat-card-image class="image mx-auto" src="{{pic.image}}" >
+            <span class="middle text">{{pic.text}}</span>
+          </mat-grid-tile>
+        </mat-grid-list> 
+      </mat-tab>
+        
+      <mat-tab label="IPhone" >
+          <mat-grid-list  cols="3" rowHeight="2:1">
+            <mat-grid-tile *ngFor="let pic of iphone" class="container">
+               <img mat-card-image class="image mx-auto" src="{{pic.image}}" >
+               <span class="middle text">{{pic.text}}</span>
+              </mat-grid-tile>
+          </mat-grid-list>  
+      </mat-tab>
+    </mat-tab-group>
+ 
+  </div>
+
+   
+            

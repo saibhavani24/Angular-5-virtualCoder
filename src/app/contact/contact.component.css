@@ -1,0 +1,73 @@
+.page-footer {
+    background-color: #555 !important;
+    color: #efbf19;
+    text-align: justify;
+    line-height: 1.42857;
+    padding: 6px 12px;
+}
+
+.center {
+    text-align: center;
+}
+
+.mat-raised-button {
+    background-color: #efbf19;
+    color: white;
+    height: 40px;
+    margin-left: 50em;
+}
+
+.btn-send {
+    background-color: goldenrod;
+}
+
+h6 {
+color:white;
+font-size: 1.2em;
+font-family: Montserrat, HelveticaNeue, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #efbf19;
+    font-size: 1.2em;
+}
+p {
+    color:white;
+    font-size: 1em;
+    font-family: Montserrat, HelveticaNeue, Helvetica Neue, Helvetica, Arial, sans-serif;
+    
+}
+
+.bg-facebook{background-color:#3b5998;color:#fff; }
+.bg-twitter{background-color:#00aced;color:#fff;}
+.bg-linkedin{background-color:#007bb6 !important;}
+.bg-instagram{background-color:#125688;color:#fff;}
+
+.footer-copyright{
+    background-color: #413f3f;
+    height: 5em;
+   
+}
+
+.form-group  {
+    background-color: transparent !important;
+    border-color: #efbf19 !important;
+    border-radius: 0;
+    border-style: none none solid !important;
+    border-width: medium medium 1px !important;
+    box-shadow: none !important;
+    color: #fff !important;
+}
+
+ .form-group ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #efbf19;
+}
+ .form-group ::-moz-placeholder { /* Firefox 19+ */
+  color:  #efbf19;
+}
+ .form-group :-ms-input-placeholder { /* IE 10+ */
+  color:  #efbf19;
+}
+ .form-group :-moz-placeholder { /* Firefox 18- */
+  color:  #efbf19;
+}

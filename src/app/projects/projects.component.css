@@ -1,0 +1,62 @@
+
+.mat-tab-group {
+    background-color: #a8a5a6;
+    color: black;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text { 
+    color: rgb(104, 18, 216);
+    font-size: 24px;
+    font-style: bold;
+    font-family: cursive;
+    padding: 16px 32px;
+  }
+  .image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }  
+
+.tool{
+    height: 70px;
+}
+
+.mat-grid-list {
+    margin: 3em;
+}
+.mat-raised-button {
+    background-color: rgb(41, 4, 4);
+    color: gold;
+    height: 40px;
+}
+
+.example-icon {
+    padding:0 4px;
+}
+
+
+h1 {
+    text-align: center;
+}
+

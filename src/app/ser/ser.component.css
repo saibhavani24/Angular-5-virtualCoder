@@ -1,0 +1,20 @@
+.center {
+    text-align: center;
+}
+
+.mat-card {
+    background-color: gold;
+    height: 70px;
+}
+
+.mat-raised-button {
+    background-color: white;
+    color: goldenrod;
+    height: 40px;
+}
+
+.p{
+    line-height: 25px;
+    font-size:20px;
+   
+}

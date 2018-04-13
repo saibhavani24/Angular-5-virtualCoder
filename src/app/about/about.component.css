@@ -1,0 +1,43 @@
+.mat-card {
+    background-color: gold;
+    height: 70px;
+}
+span{
+    color: red;
+    position: relative;
+    font-style: italic;
+}
+
+h3 {
+    font-family:"Montserrat", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:400;
+    margin-top:0;
+    margin-bottom:0;
+    text-transform:capitalize;
+    text-align: center;
+    font-size: 2em
+
+}
+h5{ 
+text-align: center;
+
+}
+.center {
+    text-align: center;
+}
+
+.tool{
+    height: 70px;
+}
+
+.mat-raised-button {
+    background-color: white;
+    color: goldenrod;
+    height: 40px;
+}
+
+.mat-grid-tile {
+    background: lightblue;
+  }
+  
+/*  */

@@ -1,0 +1,27 @@
+<h1 style="color:grey; line-height:4em">Virtual Coders Family</h1>
+   
+<!--Carousel Wrapper-->
+<mdb-carousel [isControls]="true" [animation]="'slide'" >
+    <!--Picture slide-->
+    <mdb-slide *ngFor="let item of items" >
+        <img  class=" rounded-circle img-responsive mx-auto" [src]="item.image" style="margin-left: 50em; width:30em; height: 30em">
+        <div class="carousel-caption">
+            <div class="animated fadeInDown">
+                <h3 class="h3-responsive">{{item.name}}</h3>
+                <p>{{item.des}}</p>
+            </div>
+        </div>
+    </mdb-slide>
+ <br>
+</mdb-carousel>
+
+<!-- Go to top button -->
+<div class="scroll-to-top" [ngClass]="{'show-scroll': navIsFixed}">
+    <button mat-fab  class="myBtn" (click)="scrollToTop()">
+        Top
+    </button>
+</div>
+
+
+                
+                

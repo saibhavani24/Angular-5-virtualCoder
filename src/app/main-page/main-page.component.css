@@ -1,0 +1,52 @@
+span{
+    color: whitesmoke;
+    position: relative;
+    line-height:3em;
+}
+
+
+.virtualCoderLogo {
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+}
+
+.mat-card {
+    height:80em;
+    width: 100%;
+}
+
+.center {
+    text-align: center;
+}
+
+.mat-toolbar {
+    background-color:rgb(114, 114, 114);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0.9;
+    -moz-opacity: 20%;
+    -webkit-opacity: 20%;
+}
+
+.mat-raised-button {
+    background-color: #efbf19;
+    color: white;
+    height: 40px;
+    font-size:14px;
+}
+
+
+.wrapper{
+    background: linear-gradient(rgba(44, 44, 44, 0.55), rgba(46, 45, 45, 0.55)),
+    rgba(0,0,0,0.55) url('assets/img/bg/Banner.png')  fixed ;
+    /* background-size: cover; */
+    background-position: center center;
+    background-repeat:  no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    
+}
