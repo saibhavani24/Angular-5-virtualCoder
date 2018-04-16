@@ -47,7 +47,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatTabsModule,
     NgbModule,
     MDBBootstrapModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+     
   ],
   providers: [],
   bootstrap: [

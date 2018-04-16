@@ -10,23 +10,22 @@
    
 </mat-toolbar-row>
 </mat-toolbar>
-<div class="wrapper">
+
 <mat-card class="wrapper"  >
-  <mat-card-title style="text-align:center; margin-top: 15em; " [@movePanel]='state'>
-    <h2 class="h2-responsive">
+  <mat-card-title style="text-align:center;margin-top:20%"  [@movePanel]='state'>
+    <h4 class="h5-responsive">
      <span> {{ title }}  </span>
-    </h2>
+    </h4>
   </mat-card-title>
     <mat-card-content style="text-align:center" [@movePanel]='state'>
-      <span class="h3-responsive"> {{ content }}</span>
+      <span class="h5-responsive"> {{ content }}</span>
     </mat-card-content>
 
     <div class="center"  [@movePanel]='state'>
-      <span class="h3-responsive" style="font-family:sans-serif"> {{ content1 }}</span>
+      <span class="h6-responsive" style="font-family:Montserrat, HelveticaNeue, Helvetica Neue, Helvetica, Arial, sans-serif;"> {{ content1 }}</span>
       &nbsp;
       <button mat-raised-button (click)="showDetail()">Excite Us</button>
     </div>
  
 </mat-card>
 
-</div>

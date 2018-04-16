@@ -3,18 +3,27 @@
 }
 
 .mat-card {
-    background-color: gold;
-    height: 70px;
+    background-color: #efbf19;
+    height: auto;
 }
 
 .mat-raised-button {
     background-color: white;
-    color: goldenrod;
-    height: 40px;
+    color: #efbf19;
+    height: auto;
 }
 
 .p{
     line-height: 25px;
     font-size:20px;
    
+}
+
+.h5{
+    line-height: 25px;
+}
+
+p {
+    color: #2a2a2a;
+    font-size: 14px;
 }

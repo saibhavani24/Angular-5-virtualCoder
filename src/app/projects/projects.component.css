@@ -14,7 +14,11 @@
     -ms-transform: translate(-50%, -50%);
     text-align: center;
   }
-  .container:hover .image {
+
+  .container {
+    height: auto;
+  }
+    .container:hover .image {
     opacity: 0.3;
   }
   
@@ -24,7 +28,7 @@
   
   .text { 
     color: rgb(104, 18, 216);
-    font-size: 24px;
+    font-size: 30px;
     font-style: bold;
     font-family: cursive;
     padding: 16px 32px;
@@ -33,30 +37,20 @@
     opacity: 1;
     display: block;
     width: 100%;
-    height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
   }  
 
-.tool{
-    height: 70px;
-}
-
 .mat-grid-list {
-    margin: 3em;
+    margin:100px;
 }
-.mat-raised-button {
-    background-color: rgb(41, 4, 4);
-    color: gold;
-    height: 40px;
-}
-
-.example-icon {
-    padding:0 4px;
-}
-
 
 h1 {
-    text-align: center;
+  text-align: center;
+  margin-top: 3em;
+  color:grey; 
 }
 
+.center {
+  text-align: center;
+}
