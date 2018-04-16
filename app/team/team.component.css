@@ -1,0 +1,84 @@
+#container {
+    width: 100%;
+    margin: 5em auto;
+    padding: 0;
+    background:#fff;
+}
+
+.items {
+    width:10em;
+    height:200px;
+    background:#fff;
+    text-align: center;
+}
+
+#left, #right { 
+    margin: 50px;
+    height: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+h1 {
+    text-align: center
+}
+
+.carousel{
+    overflow:hidden;
+    width:300%;
+}
+.slides{
+    list-style:none;
+    position:relative;
+    width:500%; /* Number of panes * 100% */
+    overflow:hidden; /* Clear floats */
+        /* Slide effect Animations*/
+    -moz-animation:carousel 20s infinite;
+    -webkit-animation:carousel 20s infinite;
+    animation:carousel 20s infinite;
+}
+.slides {
+    position:relative;
+    float:left;
+    width: 300%; /* 100 / number of panes */
+}
+.carousel img{
+    display:block;
+    width:90%;
+   
+    
+}
+
+.wrapper{
+    width: 10%;
+    margin: 10px 10px;
+  }
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0;
+    transition: all .2s ease-in-out;
+}
+
+.mat-fab{
+    background-color: #efbf19;
+    width: 2.5em;
+}
+.show-scroll {
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+.myBtn {
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    cursor: pointer; /* Add a mouse pointer on hover */
+}
+
+.myBtn:hover {
+    background-color: black; /* Add a dark-grey background on hover */
+    color: #efbf19
+}

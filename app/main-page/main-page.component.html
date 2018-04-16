@@ -1,0 +1,31 @@
+<mat-toolbar >
+<mat-toolbar-row color="primary" >
+  <img class="virtualCoderLogo mx-auto" src="assets/img/VC_logo_white.png" style="margin-left: 20em;">
+  
+  <button  mat-button class="col-md-1" href="#about" routerLink="/about"> About Us</button>
+  <button  mat-button class="col-md-1"  href="#service" routerLink="/services"> Services</button>
+  <button  mat-button class="col-md-1"  href="#project" routerLink="/projects"> Projects</button>
+  <button  mat-button  class="col-md-1"  href="#team"routerLink="/team"> Team</button>
+  <button  mat-button class="col-md-1"  href="#contact" routerLink="/contact"> Contact</button>
+   
+</mat-toolbar-row>
+</mat-toolbar>
+
+<mat-card class="wrapper"  >
+  <mat-card-title style="text-align:center;margin-top:20%"  [@movePanel]='state'>
+    <h4 class="h5-responsive">
+     <span> {{ title }}  </span>
+    </h4>
+  </mat-card-title>
+    <mat-card-content style="text-align:center" [@movePanel]='state'>
+      <span class="h5-responsive"> {{ content }}</span>
+    </mat-card-content>
+
+    <div class="center"  [@movePanel]='state'>
+      <span class="h6-responsive" style="font-family:Montserrat, HelveticaNeue, Helvetica Neue, Helvetica, Arial, sans-serif;"> {{ content1 }}</span>
+      &nbsp;
+      <button mat-raised-button (click)="showDetail()">Excite Us</button>
+    </div>
+ 
+</mat-card>
+

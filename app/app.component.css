@@ -1,0 +1,60 @@
+.dropShadow {
+    box-shadow: 0 10px 60px 10px black;
+    z-index: 12;
+}
+
+.example-icon {
+    padding:0 4px;
+}
+
+.example-spacer {
+    flex: 1 1 1;
+}
+
+span{
+    color: red;
+    position: relative;
+    font-style: italic;
+}
+
+.virtualCoderLogo {
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    background-image:"assets/img/VC_logo.png";
+
+}
+
+.mat-card {
+   
+    height:57em;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.mat-toolbar {
+    background-color: rgb(192, 190, 190);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+}
+
+.mat-grid-tile {
+    background: rgb(2, 48, 63);
+    margin-top: 10em;
+  }
+  
+.tool{
+    height: 70px;
+}
+
+.mat-raised-button {
+    background-color: gold;
+    color: white;
+    height: 40px;
+}
